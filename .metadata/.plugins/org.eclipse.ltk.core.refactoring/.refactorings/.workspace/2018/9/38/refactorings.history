@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;First_Exc&apos;" deleteContents="false" description="Delete resource &apos;First_Exc&apos;" element1="/First_Exc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1537176095646"/>&#x0A;<refactoring comment="Rename resource &apos;thread&apos; to &apos;threadEx&apos;" description="Rename resource &apos;thread&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/thread" name="threadEx" stamp="1537349754960" updateReferences="true"/>
+</session>

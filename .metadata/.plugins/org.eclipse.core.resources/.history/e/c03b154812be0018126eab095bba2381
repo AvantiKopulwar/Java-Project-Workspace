@@ -1,0 +1,9 @@
+
+public class D {
+public static void main(String[] args) {
+	System.out.println(A.c());
+	Object x=A.c();
+	System.out.println(x.toString());
+	System.out.println(x);
+}
+}

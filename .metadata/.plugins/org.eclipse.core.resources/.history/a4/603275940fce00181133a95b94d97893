@@ -1,0 +1,9 @@
+package com.av;
+
+public class StaticEx1 {
+static public void main() {
+	StaticEx se= new StaticEx();
+	int a = se.i;
+    System.out.println(+a);
+}
+}

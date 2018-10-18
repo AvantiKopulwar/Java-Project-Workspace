@@ -1,0 +1,9 @@
+package com.av;
+
+public class WrapperEx {
+public static void main(String[] args) {
+	String str= "abc";
+	int a = Integer.parseInt(str);
+	System.out.println(a);
+}
+}

@@ -1,0 +1,17 @@
+package com.av;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class Insert100Stu {
+public static void main(String[] args) throws Exception {
+	Connection con =DBUtil.getConMysql();
+	Statement stmt= con.createStatement();
+	for(int i=7;i<100;i++) {
+		  String sql= "insert into city values ("+i+",'Mumbai"+i+"')";
+		  System.out.println(sql);
+		  int rowUpdated = stmt.executeUpdate(sql);
+		  
+	}
+}
+}

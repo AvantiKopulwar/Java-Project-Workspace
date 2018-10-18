@@ -1,0 +1,19 @@
+
+public class test {
+
+	public static void main(String[] args) {
+Car b= new Car();
+b.color = 500;
+b.setspeed(200);
+b.setsize(22);
+b.cc = 1000;
+b.gears = 5;
+System.out.println(+b.color);
+System.out.println(+b.getspeed());
+System.out.println(+b.getsize());
+System.out.println(+b.cc);
+System.out.println(+b.gears);
+	}
+
+}
+

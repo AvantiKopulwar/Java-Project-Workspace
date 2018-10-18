@@ -1,0 +1,14 @@
+
+public class A {
+	private A() {
+		System.out.println("Constructor");
+	}
+ int b=10;
+public static void m(){
+	System.out.println("....");
+}
+public static A c() {
+	A a= new A();
+	return a;
+} 
+}

@@ -1,0 +1,27 @@
+package com.av;
+
+public class Blankmethod {
+	{
+		System.out.println("in block");
+		m1();
+	}
+	Blankmethod(){
+		System.out.println("in constructor");
+	}
+	
+	static {
+		System.out.println("in static block");
+		m2();
+	}
+	public void m1() {
+		System.out.println("in m1");
+	}
+	public static void m2() {
+		System.out.println("in static method");
+		
+	}
+	public static void main(String[] args) {
+		Blankmethod bm=new Blankmethod();
+		
+	}
+}

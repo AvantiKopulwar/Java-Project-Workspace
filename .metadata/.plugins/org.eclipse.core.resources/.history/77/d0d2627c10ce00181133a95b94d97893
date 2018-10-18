@@ -1,0 +1,5 @@
+package com.av;
+
+public class StaticEx1 extends StaticEx{
+StaticEx1.m1();
+}
